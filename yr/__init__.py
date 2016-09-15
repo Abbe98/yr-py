@@ -1,1 +1,1 @@
-import yr
+import yr from yr
