@@ -7,7 +7,7 @@ setup(
   author = 'Albin Larsson',
   author_email = 'albin.post@gmail.com',
   url = 'https://github.com/Abbe98/yr-py', # use the URL to the github repo
-  download_url = 'https://github.com/Abbe98/yr-py/tarball/0.1', # I'll explain this in a second
+  download_url = 'https://github.com/Abbe98/yr-py/tarball/0.2', # I'll explain this in a second
   keywords = ['weather', 'yr', 'yr.no'], # arbitrary keywords
   classifiers = [],
 )
