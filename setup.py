@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'yr',
   packages = ['yr'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   description = 'Wrapper for the YR.no API, for near time weather prediction.',
   author = 'Albin Larsson',
   author_email = 'albin.post@gmail.com',
