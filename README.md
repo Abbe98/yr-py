@@ -30,29 +30,29 @@ Each 24 hours consists of four periods(0-3):
 
 Retrieving the weather description for a specific period:
 ```
-yr = YR('Sweden/Södermanland/Himlinge')
-print(yr.getPeriodWeather(1))
+w = YR('Sweden/Södermanland/Himlinge')
+print(w.getPeriodWeather(1))
 ```
 `partly cloudy`
 
 Retrieving the weather description for the current period:
 ```
-yr = YR('Sweden/Södermanland/Himlinge')
-print(yr.getCurrentWeather())
+w = YR('Sweden/Södermanland/Himlinge')
+print(w.getCurrentWeather())
 ```
 `partly cloudy`
 
 Retrieving temperature for a specific period:
 ```
-yr = YR('Sweden/Södermanland/Himlinge')
-print(yr.getPeriodTemperature(1))
+t = YR('Sweden/Södermanland/Himlinge')
+print(t.getPeriodTemperature(1))
 ```
 `17`
 
 Retrieving temperature for the current period:
 ```
-yr = YR('Sweden/Södermanland/Himlinge')
-print(yr.getCurrentTemperature())
+t = YR('Sweden/Södermanland/Himlinge')
+print(t.getCurrentTemperature())
 ```
 `22`
 
