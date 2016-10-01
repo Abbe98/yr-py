@@ -2,6 +2,7 @@ from distutils.core import setup
 setup(
   name = 'yr',
   packages = ['yr'], # this must be the same as the name above
+  install_requires=['lxml'],
   version = '0.4',
   description = 'Wrapper for the YR.no API, for near time weather prediction.',
   author = 'Albin Larsson',
